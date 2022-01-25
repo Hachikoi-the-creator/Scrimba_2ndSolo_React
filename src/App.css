@@ -1,0 +1,85 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(49, 155, 255);
+  font-family: "Inter", sans-serif;
+}
+#root {
+  /* border: 1px red solid; */
+  display: grid;
+  margin: auto;
+  width: fit-content;
+  background-color: rgb(209, 209, 255);
+}
+#root .main .header{
+  max-width: 400px;
+  /* background-color: rgb(154, 154, 255); */
+}
+.header {
+  /* border: 1px red solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 55px;
+  background-color: #53d874;
+  color: white;
+  margin-bottom: 10px;
+}
+.header > p {
+  margin-left: 7px;
+  letter-spacing: -0.075em;
+  font-weight: 500;
+}
+
+.pic-div {
+  display: flex;
+  /* border: 1px red solid; */
+  width: 130px;
+  height: 150px;
+  /* background-repeat: space; */
+}
+.pic-div__img {
+  width: 100%;
+  border-radius: 7px;
+}
+/* TRAVELS */
+.travels {
+  /* padding: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px rgba(128, 128, 128, 0.781) solid;
+  margin: 10px;
+  padding-bottom: 10px;
+  
+}
+/* img */
+
+/* desc */
+.desc {
+  width: 200px;
+  font-weight: 400;
+  font-size: 10.2px;
+}
+.pic-div {
+  margin-right: 20px;
+}
+.desc__location span {
+  letter-spacing: 0.17em;
+  margin-right: 7px;
+  margin-left: 4px;
+}
+.desc__title {
+  font-size: 25px;
+}
+
+/* query only for big screen */
+@media all and (min-width: 800px) {
+  body {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
